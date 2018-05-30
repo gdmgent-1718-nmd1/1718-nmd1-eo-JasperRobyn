@@ -37,6 +37,55 @@ body{
     margin-left: 80px;
     margin-bottom: 60px;
 }
+
+
+#colors{
+    height: 120px;
+    color: rgb(240, 238, 233);
+    text-align: center;
+    font-size: 15px;
+}
+#kleur1{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(120, 186, 86);
+    float: left;
+    margin-left: 20px;
+}
+#kleur2{
+    height: 120px;
+    width: 120px;
+    background-color:rgb(255, 214, 74);
+    float: left;
+    margin-left: 20px;
+}
+#kleur3{
+    height: 120px;
+    width: 120px;
+    background-color:rgb(71, 88, 164);
+    float: left;
+    margin-left: 20px;
+}
+#kleur4{
+    height: 120px;
+    width: 120px;
+    background-color:rgb(240, 238, 233);
+    float: left;
+    margin-left: 20px;
+    color: black;
+}
+#kleur5{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(179, 63,60);
+    float: left;
+    margin-left: 20px;
+}
+
+
+#buttons{
+float: left;
+}
 #button1{
     border-radius: 10px;
     text-align: center;
@@ -79,4 +128,23 @@ body{
     height: 60px;
     background-color: rgb(120, 186, 86);
 }
+#buttonsInfoKlein{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+#buttonsInfoGroot{
+    margin-left: 180px;
+    margin-top: 40px; 
+}
 
+
+#text{
+    font-size: 18px;
+    float: left;
+    width: 800px;
+    line-height: 26px;
+}
+#textInfo{
+    margin-left: 850px;
+    margin-top: 60px;
+}
