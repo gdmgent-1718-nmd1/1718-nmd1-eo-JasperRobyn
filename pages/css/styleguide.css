@@ -1,43 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-#header{
-    background-color:  rgb(120, 186, 86);
-    height: 170px;
-    width: 1050px;
-}
-#logoHeader{
-    height: 150px;
-    width: auto;
-    margin-left: 80px; 
-    margin-top:15px;
-    position: sticky;
-}
-#kalenderIcon{
-    height: 80px;
-    width: auto;
-    margin-left: 80px;
-    margin-bottom: 60px;
-}
-#nieuwsIcon{
-    height: 80px;
-    width: auto;
-    margin-left: 80px;
-    margin-bottom: 60px;
-}
-#helpIcon{
-    height: 80px;
-    width: auto;
-    margin-left: 80px;
-    margin-bottom: 60px;
-}
-#contactIcon{
-    height: 80px;
-    width: auto;
-    margin-left: 80px;
-    margin-bottom: 60px;
-}
-
 
 #colors{
     height: 120px;
@@ -80,6 +43,7 @@ body{
     float: left;
     margin-left: 20px;
 }
+
 
 
 #buttons{
@@ -137,6 +101,7 @@ float: left;
 }
 
 
+
 #text{
     font-size: 18px;
     float: left;
@@ -145,20 +110,95 @@ float: left;
 }
 #kleineText{
     margin-top: 40px;
+    color: rgb(67, 67, 67);
 }
 #textTitel{
     font-size: 50px;
     float: left;
     line-height: 50px;
+    color: rgb(67, 67, 67);
 }
 #kleineTextInfo{
     margin-left: 850px;
-    margin-top: 180px;
+    margin-top: 190px;
+    height: 200px;
 }
 #titelInfo{
     margin-left: 100px;
-    margin-top: 40px; 
+    margin-top: 25px; 
 }
+
+
+
+#header{
+    background-color:  rgb(120, 186, 86);
+    height: 170px;
+    width: 1050px;
+    position: relative;
+}
+#logoHeader{
+    height: 150px;
+    width: auto;
+    margin-left: 80px; 
+    margin-top:15px;
+    position: sticky;
+}
+#kalenderIcon{
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+#nieuwsIcon{
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+#helpIcon{
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+#contactIcon{
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+#headerAgenda{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: -80px;
+    margin-left: 90px;
+}
+#headerNieuws{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: -124px;
+    margin-left: 255px;
+}
+#headerInfo{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: -168px;
+    margin-left: 735px;
+}
+#headerContact{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: -238px;
+    margin-left: 915px;
+}
+
 
 
 #article{
@@ -190,10 +230,12 @@ float: left;
     font-size: 50px;
     padding-top: 25px;
     padding-left: 230px;
+    color: rgb(67, 67, 67);
 }
 #articleTekst{
     font-size: 18px;
     line-height: 26px;
-    width: 500px;   
+    width: 540px;   
     margin-left: 230px;
+    color: rgb(67, 67, 67);
 }
