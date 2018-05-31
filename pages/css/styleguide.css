@@ -41,7 +41,7 @@ body{
 
 #colors{
     height: 120px;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     text-align: center;
     font-size: 15px;
 }
@@ -69,15 +69,14 @@ body{
 #kleur4{
     height: 120px;
     width: 120px;
-    background-color:rgb(240, 238, 233);
+    background-color: rgb(179, 63,60);
     float: left;
     margin-left: 20px;
-    color: black;
 }
 #kleur5{
     height: 120px;
     width: 120px;
-    background-color: rgb(179, 63,60);
+    background-color:rgb(67, 67, 67);
     float: left;
     margin-left: 20px;
 }
@@ -89,7 +88,7 @@ float: left;
 #button1{
     border-radius: 10px;
     text-align: center;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     width: 150px;
     height: 24px;
     background-color: rgb(120, 186, 86);
@@ -97,7 +96,7 @@ float: left;
 #button2{
     border-radius: 10px;
     text-align: center;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     width: 150px;
     height: 24px;
     background-color: rgb(255, 214, 74);
@@ -105,7 +104,7 @@ float: left;
 #button3{
     border-radius: 10px;
     text-align: center;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     width: 150px;
     height: 24px;
     background-color: rgb(71, 88, 164);
@@ -113,7 +112,7 @@ float: left;
 #button4{
     border-radius: 10px;
     text-align: center;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     width: 150px;
     height: 24px;
     background-color: rgb(179, 63,60);
@@ -123,7 +122,7 @@ float: left;
     border-radius: 10px;
     text-align: center;
     padding: 30px 0;
-    color: rgb(240, 238, 233);
+    color: #FFFFFF;
     width: 120px;
     height: 60px;
     background-color: rgb(120, 186, 86);
@@ -144,7 +143,57 @@ float: left;
     width: 800px;
     line-height: 26px;
 }
-#textInfo{
+#kleineText{
+    margin-top: 40px;
+}
+#textTitel{
+    font-size: 50px;
+    float: left;
+    line-height: 50px;
+}
+#kleineTextInfo{
     margin-left: 850px;
-    margin-top: 60px;
+    margin-top: 180px;
+}
+#titelInfo{
+    margin-left: 100px;
+    margin-top: 40px; 
+}
+
+
+#article{
+    background-color:rgb(179, 63,60);
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+#articleWhiteBG{
+    background-color: #FFFFFF;
+    width: 770px;
+    height: 470px;
+    border-radius: 10px;
+    margin-left: 15px;
+    top: 15px;
+    position: relative;
+}
+#articleImage{
+    float: left;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#articleTitel{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 230px;
+}
+#articleTekst{
+    font-size: 18px;
+    line-height: 26px;
+    width: 500px;   
+    margin-left: 230px;
 }
